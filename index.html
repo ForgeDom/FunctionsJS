@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Function Demonstration</h1>
+
+    <div class="function-block">
+        <h2>Task 1: Compare Numbers</h2>
+        <label for="task1-a">Number A:</label>
+        <input type="number" id="task1-a">
+        <label for="task1-b">Number B:</label>
+        <input type="number" id="task1-b">
+        <button onclick="handleTask1()">Compare</button>
+        <p class="result" id="task1-result"></p>
+    </div>
+
+    <div class="function-block">
+        <h2>Task 2: Factorial</h2>
+        <label for="task2-n">Number:</label>
+        <input type="number" id="task2-n">
+        <button onclick="handleTask2()">Calculate Factorial</button>
+        <p class="result" id="task2-result"></p>
+    </div>
+
+    <div class="function-block">
+        <h2>Task 3: Combine Digits</h2>
+        <label for="task3-a">Digit A:</label>
+        <input type="number" id="task3-a">
+        <label for="task3-b">Digit B:</label>
+        <input type="number" id="task3-b">
+        <label for="task3-c">Digit C:</label>
+        <input type="number" id="task3-c">
+        <button onclick="handleTask3()">Combine</button>
+        <p class="result" id="task3-result"></p>
+    </div>
+
+    <div class="function-block">
+        <h2>Task 4: Calculate Area</h2>
+        <label for="task4-length">Length:</label>
+        <input type="number" id="task4-length">
+        <label for="task4-width">Width (optional):</label>
+        <input type="number" id="task4-width">
+        <button onclick="handleTask4()">Calculate Area</button>
+        <p class="result" id="task4-result"></p>
+    </div>
+
+    <div class="function-block">
+        <h2>Task 5: Check Perfect Number</h2>
+        <label for="task5-num">Number:</label>
+        <input type="number" id="task5-num">
+        <button onclick="handleTask5()">Check</button>
+        <p class="result" id="task5-result"></p>
+    </div>
+
+    <div class="function-block">
+        <h2>Task 6: Find Perfect Numbers in Range</h2>
+        <label for="task6-min">Min:</label>
+        <input type="number" id="task6-min">
+        <label for="task6-max">Max:</label>
+        <input type="number" id="task6-max">
+        <button onclick="handleTask6()">Find</button>
+        <p class="result" id="task6-result"></p>
+    </div>
+
+    <div class="function-block">
+        <h2>Task 7: Format Time</h2>
+        <label for="task7-hours">Hours:</label>
+        <input type="number" id="task7-hours">
+        <label for="task7-minutes">Minutes (optional):</label>
+        <input type="number" id="task7-minutes">
+        <label for="task7-seconds">Seconds (optional):</label>
+        <input type="number" id="task7-seconds">
+        <button onclick="handleTask7()">Format</button>
+        <p class="result" id="task7-result"></p>
+    </div>
+
+    <div class="function-block">
+        <h2>Task 8: Time to Seconds</h2>
+        <label for="task8-hours">Hours:</label>
+        <input type="number" id="task8-hours">
+        <label for="task8-minutes">Minutes:</label>
+        <input type="number" id="task8-minutes">
+        <label for="task8-seconds">Seconds:</label>
+        <input type="number" id="task8-seconds">
+        <button onclick="handleTask8()">Convert</button>
+        <p class="result" id="task8-result"></p>
+    </div>
+
+    <div class="function-block">
+        <h2>Task 9: Seconds to Time</h2>
+        <label for="task9-seconds">Seconds:</label>
+        <input type="number" id="task9-seconds">
+        <button onclick="handleTask9()">Convert</button>
+        <p class="result" id="task9-result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
